@@ -561,3 +561,17 @@ width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
+@media only screen and (min-width: 1440px) {
+  .archive-section{
+    background-image: url("/img/archive/desk.png");
+    background-size: 100% 958px;
+    background-position: bottom center;
+    height: 1179px;
+  }
+  .archive-text{
+    font-size: 24px;
+  }
+  .archive-text-two{
+    width: 782px;
+  }
+}
