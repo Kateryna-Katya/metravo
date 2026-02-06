@@ -541,3 +541,23 @@ width: 100%;
     text-align: center;
   }
 }
+/* The Archive */
+.archive-section{
+    background: #18100e;
+    background-image: url("/img/archive/mob.png");
+                background-repeat: no-repeat;
+                    background-position: bottom center;
+                    background-size: 100% 250px;
+    height: 537px;
+}
+.archive-text{
+    margin-top: 40px;
+    margin-bottom: 24px;
+    font-weight: 800;
+        font-size: 20px;
+}
+.archive-text-two{
+    width: 313px;
+    margin-left: auto;
+    margin-right: auto;
+}
