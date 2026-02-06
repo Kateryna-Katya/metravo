@@ -358,3 +358,91 @@ width: 100%;
     width: 100%;
  }
 }
+/* Symbol Archive */
+.symbol-section{
+    background: #18100e;
+}
+.symbol-wrapper{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.symbol-list{
+    display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+}
+.symbol-text{
+    font-weight: 800;
+        font-size: 20px;
+}
+.symbol-item{
+        display: flex;
+            flex-direction: column;
+            gap: 16px;
+            align-items: center;
+    border: 1px solid #2d9ab3;
+        border-radius: 16px;
+        padding: 16px;
+        width: 240px;
+        height: 301px;
+}
+.symbol-title-item{
+    font-weight: 700;
+}
+.symbol-text-item{
+    font-size: 12px;
+}
+@media only screen and (min-width: 1440px) {
+  .symbol-wrapper{
+    width: 860px;
+  }
+  .symbol-text{
+    font-size: 24px;
+  }
+  .symbol-list{
+    flex-direction: row;
+    justify-content: center;
+    gap: 48px;
+  }
+}
+/* Tests of The Sun */
+.test-section{
+    background-image: url("/img/test/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 296px;
+    height: 815px;
+}
+.test-text-one{
+    margin-top: 32px;
+    margin-bottom: 24px;
+    font-weight: 800;
+        font-size: 20px;
+    color: #18100e;
+}
+.test-text-two{
+    width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #18100e;
+}
+@media only screen and (min-width: 1440px) {
+  .test-section{
+    background-image: url("/img/test/desk.png");
+    height: 1003px;
+    background-size: 100% 804px;
+  }
+  .test-text-one{
+    font-size: 24px;
+  }
+  .test-text-two{
+    width: 894px;
+  }
+}
