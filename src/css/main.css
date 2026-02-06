@@ -1,0 +1,105 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 812px;
+}
+.home-wrapper{
+    margin-top: 140px;
+    width: 323px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 0;
+}
+.home-wrapper::before {
+    content: "";
+    position: absolute;
+    left: 17px;
+    top: 50px;
+    width: 323px;
+    height: 241px;
+    background: rgba(24, 16, 14, 0.6);
+    filter: blur(15px);
+    transform: scale(1.15);
+    z-index: -1;
+}
+.home-title {
+    margin-top: 120px;
+    font-family: "Chelsea Market", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.38;
+    letter-spacing: -0.06em;
+    text-align: center;
+    color: #2d9ab3;
+
+    text-shadow:
+        0 4px 4px #993d0b,
+        2px -2px 6px #1a3941;
+}
+.home-text-one{ 
+font-weight: 800;
+ font-size: 24px;
+
+}
+.home-text-two{
+    margin-top: 32px;
+    font-weight: 600;
+}
+.home-btn{
+    margin: 48px auto 0;
+}
+@media only screen and (min-width: 1440px) {
+  .home-section{
+    background-image: url("/img/home/desk.png");
+    height: 830px;
+  }
+  .home-container{
+    padding-left: 120px;
+  }
+  .home-title{
+    margin-top: 140px;
+    text-align: left;
+    font-size: 80px;
+        letter-spacing: -0.06em;
+  }
+  .home-wrapper{
+    margin-top: 48px;
+    margin-left: 0;
+    margin-right: auto;
+    width: 634px;
+        height: 243px;
+  }
+  .home-wrapper::before {
+      content: "";
+      position: absolute;
+      left: 17px;
+      top: 50px;
+width: 634px;
+    height: 243px;
+filter: blur(100px);
+    background: rgba(255, 234, 128, 0.4);
+      transform: scale(1.15);
+      z-index: -1;
+  }
+  .home-text-one{
+    color: #18100e;
+    text-align: left;
+  }
+  .mob{
+    display: none;
+  }
+  .home-text-two{
+    color: #18100e;
+    text-align: left;
+    width: 581px;
+  }
+  .home-btn {
+  margin-top: 32px;
+  margin-left: 0;
+  margin-right: auto;
+  }
+}
