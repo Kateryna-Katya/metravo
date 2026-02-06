@@ -486,3 +486,58 @@ width: 100%;
     font-size: 24px;
 }
 }
+/* Why It’s Different */
+.why-text{
+    font-weight: 800;
+        font-size: 20px;
+    color: #18100e;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+.why-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.why-item{
+    border: 1px solid #18100e;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+        border-radius: 16px;
+        padding: 8px 24px;
+        width: 343px;
+        height: 96px;
+    background: #18100e;
+}
+.why-img{
+    width: 80px;
+        height: 80px;
+}
+.why-text-item{
+    text-align: left;
+    width: 192px;
+}
+@media only screen and (min-width: 1440px) {
+  .why-text{
+    font-size: 24px;
+  }
+  .why-list{
+    flex-direction: row;
+    gap: 46px;
+  }
+  .why-item{
+    width: 200px;
+        height: 232px;
+        flex-direction: column;
+        gap: 16px;
+  }
+  .why-img{
+    width: 120px;
+        height: 120px;
+  }
+  .why-text-item{
+    width: 168px;
+    text-align: center;
+  }
+}
