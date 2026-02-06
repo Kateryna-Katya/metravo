@@ -103,3 +103,38 @@ filter: blur(100px);
   margin-right: auto;
   }
 }
+/* DISCLAIMER */
+.disclaimer-section{
+    background: #18100e;
+}
+.disclaimer-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.disclaimrer-title{
+    font-family: "Chelsea Market", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: #2d9ab3;
+text-shadow:
+        1px 1px 1px rgba(148, 147, 135, 0.6),
+        -1px -1px 1px rgba(0, 0, 0, 0.3);
+}
+.disclaimer-text{
+    font-weight: 300;
+        font-size: 14px;
+}
+@media only screen and (min-width: 1440px) {
+  .disclaimer-wrapper{
+    flex-direction: row;
+    gap: 48px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .disclaimer-text{
+    text-align: left;
+  }
+}
