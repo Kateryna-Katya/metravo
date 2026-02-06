@@ -323,3 +323,38 @@ width: 942px;
 width: 100%;
 }
 }
+/* Ancient Mechanisms */
+.ancient-section{
+    background-image: url("/img/ancient/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 299px;
+    height: 784px;
+}
+.ancient-text-one{
+    margin-top: 32px;
+    margin-bottom: 24px;
+    font-weight: 800;
+        font-size: 20px;
+        color: #18100e;
+}
+.ancient-text-two{
+    color: #18100e;
+    width: 313px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 1440px) {
+ .ancient-section{
+    height: 938px;
+    background-image: url("/img/ancient/desk.png");
+    background-size: 942px 533px;
+    background-position: bottom 56px center;
+ }
+ .ancient-text-one{
+    font-size: 24px;
+ }
+ .ancient-text-two{
+    width: 100%;
+ }
+}
