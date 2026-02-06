@@ -286,3 +286,40 @@ width: 942px;
                     border-radius: 30px;
                 }
 }
+/* The Desert Site */
+.desert-section{
+    background-color: #18100e;
+    background-image: url("/img/desert/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 252px;
+    height: 756px;
+}
+.desert-text-one{
+    margin-top: 32px;
+    margin-bottom: 24px;
+    font-weight: 800;
+        font-size: 20px;
+        width: 293px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.desert-text-two{
+        margin-left: auto;
+            margin-right: auto;
+            width: 323px;
+}
+@media only screen and (min-width: 1440px) {
+.desert-section{
+    background-image: url("/img/desert/desk.png");
+    background-size: 100% 672px;
+    height: 1021px;
+}
+.desert-text-one{
+    width: 100%;
+    font-size: 24px;
+}
+.desert-text-two{
+width: 100%;
+}
+}
